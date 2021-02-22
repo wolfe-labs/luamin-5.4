@@ -26,17 +26,20 @@
 	var regexAlphaNumUnderscore = /[a-zA-Z0-9_]/;
 	var regexDigits = /[0-9]/;
 
-	// http://www.lua.org/manual/5.2/manual.html#3.4.7
-	// http://www.lua.org/source/5.2/lparser.c.html#priority
+	// http://www.lua.org/manual/5.4/manual.html#3.4.8
+	// http://www.lua.org/source/5.4/lparser.c.html#priority
 	var PRECEDENCE = {
 		'or': 1,
 		'and': 2,
 		'<': 3, '>': 3, '<=': 3, '>=': 3, '~=': 3, '==': 3,
-		'..': 5,
-		'+': 6, '-': 6, // binary -
-		'*': 7, '/': 7, '%': 7,
-		'unarynot': 8, 'unary#': 8, 'unary-': 8, // unary -
-		'^': 10
+		'..': 9,
+		'<<': 7, '>>': 7,
+		'&': 6, '|': 4, '~': 5,
+		'/':11, '//': 11,
+		'^':14,
+		'*': 11, '%': 11,
+		'+': 10, '-': 10, // binary -
+		'unarynot': 12, 'unary#': 12, 'unary~': 12, 'unary-': 12, // unary -
 	};
 
 	var IDENTIFIER_PARTS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a',
