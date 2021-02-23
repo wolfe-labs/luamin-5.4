@@ -20,6 +20,7 @@
 	var luaparse = root.luaparse || require('luaparse');
 	luaparse.defaultOptions.comments = false;
 	luaparse.defaultOptions.scope = true;
+	luaparse.defaultOptions.luaVersion = '5.3';
 	var parse = luaparse.parse;
 
 	var regexAlphaUnderscore = /[a-zA-Z_]/;
