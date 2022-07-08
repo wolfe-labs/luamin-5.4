@@ -1,7 +1,7 @@
 {
-	"name": "luamin",
+	"name": "@wolfe-labs/luamin-5.4",
 	"version": "1.0.4",
-	"description": "A Lua minifier written in JavaScript",
+	"description": "A luamin fork with Lua 5.4 support",
 	"homepage": "https://mths.be/luamin",
 	"main": "luamin.js",
 	"bin": "bin/luamin",
