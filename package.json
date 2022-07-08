@@ -1,6 +1,6 @@
 {
 	"name": "@wolfe-labs/luamin-5.4",
-	"version": "1.0.4",
+	"version": "1.54.0",
 	"description": "A luamin fork with Lua 5.4 support",
 	"homepage": "https://mths.be/luamin",
 	"main": "luamin.js",
@@ -17,9 +17,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mathiasbynens/luamin.git"
+		"url": "https://github.com/wolfe-labs/luamin-5.4.git"
 	},
-	"bugs": "https://github.com/mathiasbynens/luamin/issues",
+	"bugs": "https://github.com/wolfe-labs/luamin-5.4/issues",
 	"files": [
 		"LICENSE-MIT.txt",
 		"luamin.js",

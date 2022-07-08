@@ -1,4 +1,6 @@
-# luamin, a Lua minifier written in JavaScript
+# luamin-5.4, a luamin fork for Lua 5.4
+
+Original project: https://github.com/mathiasbynens/luamin
 
 [![Build status](https://travis-ci.org/mathiasbynens/luamin.svg?branch=master)](https://travis-ci.org/mathiasbynens/luamin)
 
